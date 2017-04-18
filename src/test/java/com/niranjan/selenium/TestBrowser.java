@@ -6,7 +6,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
  * Created by NIRRATH on 18-4-2017.
@@ -21,7 +20,7 @@ public class TestBrowser {
 
     @Test
     public void browseToGoogle() {
-        driver.get("http://www.tcs.com");
+        driver.get("http://www.sogeti.com");
     }
 
     @After
