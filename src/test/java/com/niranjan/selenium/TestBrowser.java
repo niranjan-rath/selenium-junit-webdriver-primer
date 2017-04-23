@@ -18,8 +18,8 @@ public class TestBrowser {
     }
 
     @Test
-    public void browseToGoogle() {
-        driver.get("http://www.sogeti.com");
+    public void browseToTestForm() {
+        driver.get("http://toolsqa.wpengine.com/automation-practice-form/");
     }
 
     @After
